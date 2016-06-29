@@ -1,0 +1,64 @@
+﻿;	Raljeta AHK, version: 0.3.x
+;	Copyright (C) 2011-2014  Litew <litew9@gmail.com>
+;
+;	Tento program je svobodný software: můžete jej šířit a / nebo modifikovat.
+;	Je v souladu s podmínkami GNU General Public License, vydávané
+;	Free Software Foundation, buď verze 3 této licence, nebo
+;	(Podle vašeho uvážení) kterékoli pozdější verze.
+;
+;	Tento program je rozšiřován v naději, že bude užitečný,
+;	avšak BEZ JAKÉKOLI ZÁRUKY; dokonce i bez předpokládané záruky
+;	Bez záruky PRODEJNOSTI nebo VHODNOSTI PRO URČITÝ ÚČEL. Podívejte se
+;	GNU General Public License pro více informací.
+;
+;	Byste měli obdržet kopii GNU General Public License
+;	spolu s tímto programem. Pokud ne, viz <http://www.gnu.org/licenses/>.
+
+; ----- Czech language ----- spawes, 2013-05-20
+
+{
+	lng							:= {}
+	
+	lng.MSG_HOWTO				:= "Chcete-li zahájit stahování, zkopírujte URL z adresního řádku prohlížeče."
+	lng.MSG_EXTRACTING_INFO		:= "Stahování stránka obsahuje informace o videu ..."
+	lng.MSG_EXTRACTING_LINK		:= "Rozbalovací odkaz na video: `r`n"
+	lng.MSG_DOWNLOAD_STARTED	:= "Zahájení stahování ..."
+	lng.MSG_CHOOSE_DOWNLOAD_DIR	:= "Vyberte adresář pro ukládání všech budoucích souborů ke stažení:"
+	lng.MSG_NEW_LINK_FOUND		:= "Odkaz nalezen: "
+	lng.MSG_NEW_LINK_FILENAME	:= "Jměno souboru: "
+	lng.MSG_NEW_LINK_ASK		:= "Stáhnout?"
+	lng.MSG_SAVE_VIDEO_AS		:= "Uložit video jako ..."
+	lng.MSG_DNLD_7Z				:= "Získat 7z-extractor."
+	lng.MSG_DNLD_HDS_ARCH		:= "Získat skripty HDS-downloader."
+	lng.MSG_DNLD_CANCELED		:= "Stahování bylo zrušeno."
+	lng.MSG_UNPACKING_HDS		:= "Rozbalování HDS-downloader.`r`nProsím čekejte."
+	
+	lng.ERR_CANNOT_PARSE_URL	:= "Chyba: nelze analyzovat URL"
+	lng.ERR_CANNOT_GET_INFO		:= "Chyba: nelze stáhnout informace o videu."
+	lng.ERR_CANNOT_GET_LINK		:= "Chyba: nelze extrahovat odkaz na video."
+	lng.ERR_CANNOT_START_DNLDR	:= "Chyba: nelze spustit RTMP/HDS downloader"
+	lng.ERR_CANNOT_EXTRACT_HDS	:= "Chyba: nelze extrahovat HDS-downloader."
+	lng.ERR_WRONG_DIR_PATH		:= "Chybná cesta k adresáři pro stahování.`r`nZkontrolujte tento adresář jestli existuje a má přístup pro zápis:`r`n`r`n"
+	lng.ERR_TITLE_NO_HDS		:= "Nelze nalézt AdobeHDS downloader."
+	lng.ERR_TEXT_NO_HDS		:= "Uvedené URL používá Adobe HDS ...`r`nChcete-li aby to fungovalo, jsouzapotřebí další soubory (7z-extractor and HDS-downloader).`r`n`r`nMám je teď stáhnout? (`~ 3 MB)"
+	lng.ERR_NO_SUPPORT_HDS		:= "Stahování přes HTTP Dynamic Streaming `ris ještě není implementováno, promiňte"
+	lng.ERR_NO_SUPPORT_RTMPS	:= "Stahování pomocí zakódované RTMP není `ještě není implementováno, promiňte"
+	
+	lng.MENU_NEW_URL			:= "Přidat URL"
+	lng.MENU_SET_DOWNLOAD_DIR	:= "Vybrat adresář pro stahování"
+	lng.MENU_VIDEO_QUAL_LOW		:= "Nízká"
+	lng.MENU_VIDEO_QUAL_MEDIUM	:= "Střední"
+	lng.MENU_VIDEO_QUAL_HIGH	:= "Vysoká"
+	lng.MENU_VIDEO_SUBMENU		:= "Video kvalita"
+	lng.MENU_CONFIRM_DOWNLOAD	:= "Potvrďte stažení"
+	lng.MENU_NOTIFY_ON			:= "Zobrazit oznámení"
+	lng.MENU_LOGGING			:= "Zapnout logování"
+	lng.MENU_ENABLE_CLIPMON		:= "Hlídat schránku na odkazy"
+	lng.MENU_LOAD_ON_STARTUP	:= "Spustit při startu systému"
+	lng.MENU_HELP_BUGREPORT		:= "Stahovací problém"
+	lng.MENU_HELP_WEBSITE		:= "Domovský stránka"
+	lng.MENU_HELP_MANUAL_LOAD	:= "Stáhnout ručně"
+	
+	lng.MENU_HELP				:= "Odkazy"
+	lng.MENU_EXIT				:= "Konec"
+}

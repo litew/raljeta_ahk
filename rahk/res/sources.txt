@@ -1,0 +1,2 @@
+RTMPDump			: http://rtmpdump.mplayerhq.hu/
+K-S-V Adobe HDS Downloader	: https://github.com/K-S-V/Scripts

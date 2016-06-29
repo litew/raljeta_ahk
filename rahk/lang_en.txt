@@ -1,0 +1,64 @@
+﻿;	Raljeta AHK, version: 0.3.x
+;	Copyright (C) 2011-2014  Litew <litew9@gmail.com>
+;
+;	This program is free software: you can redistribute it and/or modify
+;	it under the terms of the GNU General Public License as published by
+;	the Free Software Foundation, either version 3 of the License, or
+;	(at your option) any later version.
+;
+;	This program is distributed in the hope that it will be useful,
+;	but WITHOUT ANY WARRANTY; without even the implied warranty of
+;	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+;	GNU General Public License for more details.
+;
+;	You should have received a copy of the GNU General Public License
+;	along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+; ----- English language -----
+
+{
+	lng							:= {}
+	
+	lng.MSG_HOWTO				:= "To start downloading copy movie URL from browser's address bar."
+	lng.MSG_EXTRACTING_INFO		:= "Downloading page containing video info..."
+	lng.MSG_EXTRACTING_LINK		:= "Extracting link to the video: `r`n"
+	lng.MSG_DOWNLOAD_STARTED	:= "Starting download..."
+	lng.MSG_CHOOSE_DOWNLOAD_DIR	:= "Select directory to save all future downloads in:"
+	lng.MSG_NEW_LINK_FOUND		:= "Links found: "
+	lng.MSG_NEW_LINK_FILENAME	:= "Filename: "
+	lng.MSG_NEW_LINK_ASK		:= "Download?"
+	lng.MSG_SAVE_VIDEO_AS		:= "Save video as..."
+	lng.MSG_DNLD_7Z				:= "Getting 7z-extractor."
+	lng.MSG_DNLD_HDS_ARCH		:= "Getting HDS-downloader scripts."
+	lng.MSG_DNLD_CANCELED		:= "Download was canceled."
+	lng.MSG_UNPACKING_HDS		:= "Unpacking HDS-downloader.`r`nPlease wait."
+	
+	lng.ERR_CANNOT_PARSE_URL	:= "Error: can't parse URL"
+	lng.ERR_CANNOT_GET_INFO		:= "Error: can't download video's infopage."
+	lng.ERR_CANNOT_GET_LINK		:= "Error: can't extract link to the video."
+	lng.ERR_CANNOT_START_DNLDR	:= "Error: can't run RTMP/HDS downloader"
+	lng.ERR_CANNOT_EXTRACT_HDS	:= "Error: can't unpack HDS-downloader."
+	lng.ERR_WRONG_DIR_PATH		:= "Wrong path to the download directory.`r`nPlease check that directory exists and has write-access:`r`n`r`n"
+	lng.ERR_TITLE_NO_HDS		:= "Can't find AdobeHDS downloader."
+	lng.ERR_TEXT_NO_HDS		:= "The URL you copied uses Adobe HDS technology for streaming this video.`r`nTo make it work additional files are required (7z-extractor and HDS-downloader).`r`n`r`nDownload them right now? (`~ 3 MB)"
+	lng.ERR_NO_SUPPORT_HDS		:= "Downloading via HTTP Dynamic Streaming`ris not implemented yet, sorry"
+	lng.ERR_NO_SUPPORT_RTMPS	:= "Downloading using crypted RTMP is not`rimplemented yet, sorry"
+	
+	lng.MENU_NEW_URL			:= "Add URL"
+	lng.MENU_SET_DOWNLOAD_DIR	:= "Select directory for downloads"
+	lng.MENU_VIDEO_QUAL_LOW		:= "Low"
+	lng.MENU_VIDEO_QUAL_MEDIUM	:= "Medium"
+	lng.MENU_VIDEO_QUAL_HIGH	:= "High"
+	lng.MENU_VIDEO_SUBMENU		:= "Video quality"
+	lng.MENU_CONFIRM_DOWNLOAD	:= "Confirm download"
+	lng.MENU_NOTIFY_ON			:= "Show notifications"
+	lng.MENU_LOGGING			:= "Enable log"
+	lng.MENU_ENABLE_CLIPMON		:= "Sniff clipboard for links"
+	lng.MENU_LOAD_ON_STARTUP	:= "Run on system startup"
+	lng.MENU_HELP_BUGREPORT		:= "Downloading problem"
+	lng.MENU_HELP_WEBSITE		:= "Homepage"
+	lng.MENU_HELP_MANUAL_LOAD	:= "Download manually"
+	
+	lng.MENU_HELP				:= "Links"
+	lng.MENU_EXIT				:= "Exit"
+}

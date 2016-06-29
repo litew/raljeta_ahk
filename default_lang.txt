@@ -1,0 +1,10 @@
+﻿; Do not delete this file!
+; Available languages:
+;	lang_ru - Russian
+;	lang_en - English
+;	lang_fr - French
+;	lang_cz - Czech
+; Translation: copy rahk/lang_en.txt to rahk/lang_XX.txt, where XX is your's country code, translate it and include below as lang_XX.txt
+
+; Load lng file
+#Include lang_ru.txt
